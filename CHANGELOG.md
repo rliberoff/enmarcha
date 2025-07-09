@@ -16,6 +16,21 @@ Also, any bug fix must start with the prefix �Bug fix:� followed by the desc
 
 Previous classification is not required if changes are simple or all belong to the same category.
 
+## [8.2.1-preview-03]
+
+### Major Changes
+
+- Updated Microsoft Semantic Kernel packages from version 1.42.0 to 1.45.0, which includes:
+  - Microsoft.SemanticKernel.Core: 1.42.0 → 1.45.0
+  - Microsoft.SemanticKernel.Abstractions: 1.42.0 → 1.45.0
+  - Microsoft.SemanticKernel.Connectors.AzureOpenAI: 1.42.0 → 1.45.0
+  - Microsoft.SemanticKernel.Plugins.Memory: 1.42.0-alpha → 1.45.0-alpha
+  - Microsoft.SemanticKernel.Plugins.Document: 1.42.0-alpha → 1.45.0-alpha
+  - Microsoft.SemanticKernel.Connectors.AzureAISearch: 1.42.0-preview → 1.45.0-preview
+  - Microsoft.SemanticKernel.Connectors.Qdrant: 1.42.0-preview → 1.45.0-preview
+
+This update provides improved performance, bug fixes, and enhanced compatibility while maintaining full backward compatibility with existing code. Version 1.45.0 was chosen over newer versions to avoid breaking changes introduced in later versions where the Memory API was replaced with the Vector Store pattern.
+
 ## [8.2.1]
 
 ### Major Changes
