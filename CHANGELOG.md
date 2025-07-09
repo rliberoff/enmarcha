@@ -18,6 +18,8 @@ Previous classification is not required if changes are simple or all belong to t
 
 ## [Unreleased]
 
+## [8.2.1-preview-03]
+
 ### Major Changes
 
 - Updated Microsoft Semantic Kernel packages from version 1.42.0 to 1.45.0, which includes:
